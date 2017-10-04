@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: #B9A6A0;
+}
+
+a:visited {
+  color: #B9A6A0;
+}
+
+a:hover {
+  color: #ECDED7;
+}
+
+a.active {
+    color: #ECDED7;
+}
+
+h1, h2, h3, h4 {
+  color: #77564F;
+  text-transform: uppercase;
+  margin-top: 0;
+}

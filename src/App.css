@@ -1,0 +1,135 @@
+* { box-sizing: border-box }
+
+body {
+  background-color: #FFF0EB;
+}
+
+.hide {
+  display: none;
+}
+
+section {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+ * App wrapper
+ */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/**
+ * Header
+ */
+
+.App-header {
+  background-color: #77564F;
+  min-height: 80px;
+  padding: 10px 10%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header-site {
+  display: flex;
+  align-items: center;
+}
+
+.App-header-site h2 {
+  margin: 0 0 0 10px;
+  padding: 0;
+  color: #FFF0EB;
+}
+
+.App-header-menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.App-header-menu li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.App-main {
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 10%;
+}
+
+/**
+ * Sidebar
+ */
+
+.App-sidebar {
+  flex: 0;
+  min-width: 300px;
+}
+
+.App-sidebar-item {
+  background-color: #fff;
+  border-color: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 80px;
+  margin-bottom: 10px;
+}
+
+/**
+ * Content
+ */
+
+.App-content {
+  padding: 0 10px;
+  flex: 1;
+}
+
+/**
+ * Footer
+ */
+
+.App-footer {
+  flex: 0;
+  padding: 10px 10%;
+  text-align: center;
+  font-size: 0.7rem;
+  opacity: 0.4;
+}
+
+/**
+ * Contact Page
+ */
+
+.App-Content-Contact section {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.App-Content-Contact button {
+  margin-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
